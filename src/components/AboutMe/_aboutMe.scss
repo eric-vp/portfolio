@@ -1,0 +1,39 @@
+@use "../Styles/mixins";
+
+.aboutMe {
+    @include mixins.section;
+    // background-color: #aaa;
+    padding: 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    // justify-content: space-evenly;
+    
+    .title {
+        font-size: 90px;
+        padding-top: 100px;
+        .title-first {
+                text-transform: uppercase;
+                color: black;
+                // -webkit-text-stroke: 2px black;
+                font-family: sans-serif;
+        }
+        .title-second {
+            margin-top: -100px;
+        }
+    }
+    
+    .aboutMe__text {
+        align-self: end;
+        text-align: end;
+        font-size: 42px;
+        margin-top: 5rem;
+    }
+
+    .button {
+        margin-top: 7rem;
+        align-self: center;
+    }
+}
+

@@ -1,0 +1,55 @@
+@use "../Styles/mixins";
+
+.contact {
+    @include mixins.section;
+    background: linear-gradient(45deg, #6e34af, #49108B);
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    .title {
+        font-size: 90px;
+        padding-top: 100px;
+        .title-second {
+            margin-top: -100px;
+        }
+    }
+    
+    .contact__links {
+        margin-top: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+
+        .link {
+            font-size: 24px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                text-decoration: none;
+        
+                i {
+                    color: white;
+                    font-size: 100px;
+                    transition: .2s;
+                }
+    
+                i:hover {
+                    color: #bbb;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,23 @@
+.title {
+    // padding-top: 200px;
+    font-size: 100px;
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    // text-transform: uppercase;
+
+    .title-first {
+        text-transform: uppercase;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .title-second {
+        margin-top: -117px;
+        color: #FF0080;
+        font-weight: bold;
+        font-family: "Verdana", sans-serif;
+    }
+}
