@@ -21,3 +21,12 @@
         font-family: "Verdana", sans-serif;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .title{
+        font-size: 60px;
+        .title-second{
+            margin-top: -70px;
+        }
+    }
+}

@@ -37,3 +37,21 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .aboutMe{
+        padding: 0 2rem;
+        align-items: center;
+        .title {
+            font-size: 32px;
+    
+            .title-second {
+                margin-top: -36px;
+            }
+        }
+        .aboutMe__text {
+            text-align: start;
+            font-size: 22px;
+            margin-top: 5rem;
+        }
+    }
+}

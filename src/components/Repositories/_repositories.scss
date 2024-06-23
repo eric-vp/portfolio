@@ -95,3 +95,44 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .repositories {
+        display: grid;
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d";
+        width: 100vw;
+        height: 100vh;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: .25rem;
+
+        .hover {
+            padding: 0 2rem;
+            background-color: rgba(15, 0, 35, 0.7);
+
+            .hover__title {
+                font-size: 24px;
+                text-decoration: underline;
+                text-decoration-color: #FF0080;
+            }
+
+            ul {
+                align-self: start;
+                display: block;
+                list-style: circle;
+            }
+
+            a {
+                display: block;                
+            }
+
+            span{
+                display: block;
+            }
+        }
+    }
+}

@@ -51,5 +51,35 @@
             }
         }
     }
+}
 
+@media screen and (max-width: 600px) {
+    .contact {
+        padding: 0 2rem;
+        align-items: center;
+
+        .title {
+            font-size: 32px;
+    
+            .title-second {
+                margin-top: -36px;
+            }
+        }
+
+        .contact__links {
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 2rem;
+            .link {
+                flex-direction: row;
+                a {
+                    i {
+                        color: white;
+                        font-size: 50px;
+                        transition: .2s;
+                    }
+                }
+            }
+        }
+    }
 }

@@ -9,6 +9,7 @@ export default function FrontPage() {
                 firstTitle={"Eric"}
                 secondTitle={"Palavro"}
             />
+            <span>Desenvolvedor de Software</span>
             <div class="buttons">
                 <Button
                     link={"https://www.linkedin.com/in/eric-vieira-palavro/"}
