@@ -1,6 +1,7 @@
 import Button from '../Button/Button';
 import Title from '../Title/Title'
 import './_aboutMe.scss'
+import curriculo from './curriculo/curriculo.pdf'
 
 export default function AboutMe() {
     return (
@@ -10,11 +11,12 @@ export default function AboutMe() {
                 secondTitle={"Mim"}
             />
             <p className='aboutMe__text'>Estudante de programação, entusiasta de design e apaixonado por arte.</p>
-            {/* <Button
-                link={"https://github.com/eric-vp"}
-                icon={"fa-solid fa-download"}
+            <Button
+                link={curriculo}
+                icon={"fa-regular fa-file"}
                 text={"Currículo"}
-            /> */}
+                download={"Currículo Eric Vieira Palavro"}
+            />
         </section>
     )
 }
