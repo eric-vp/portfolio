@@ -38,7 +38,7 @@ export default function Repositories() {
                         <li>Styled Components</li>
                         <li>LocalStorage</li>
                     </ul>
-                    <a href="https://to-do-list-eric-vp.vercel.app/" target="_blank">
+                    <a href="https://to-do-list-snowy-theta.vercel.app/" target="_blank">
                         <span>LINK</span>
                     </a>
                 </div>
