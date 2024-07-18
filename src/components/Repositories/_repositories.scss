@@ -15,24 +15,28 @@
     .first {
         background: url('../../assets/favorite-movies.png');
         background-size: cover;
+        background-position: center;
         grid-area: 'a';
     }
 
     .second {
         background: url('../../assets/optimus-tech.png');
         background-size: cover;
+        background-position: center;
         grid-area: 'b';
     }
 
     .third {
         background: url('../../assets/to-do-list.png');
         background-size: cover;
+        background-position: center;
         grid-area: 'c';
     }
 
     .fourth {
         background: url('../../assets/cinetag.png');
         background-size: cover;
+        background-position: center;
         grid-area: 'd';
     }
 
