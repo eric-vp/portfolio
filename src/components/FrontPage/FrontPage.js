@@ -4,6 +4,7 @@ import './_frontPage.scss';
 
 export default function FrontPage() {
     return (
+        
         <section className='frontPage'>
             <Title 
                 firstTitle={"Eric"}

@@ -1,3 +1,5 @@
+@use "../Styles/themes";
+
 .button {
     width: 240px;
     text-decoration: none;
@@ -8,7 +10,7 @@
     align-items: center;
     gap: 1rem;
 
-    background-color: #FF0080;
+    background-color: var(--main-color);
     padding: .5rem 1rem;
     border-radius: 5px;
 
@@ -16,5 +18,5 @@
 }
 
 .button:hover {
-    background-color: #c00060;
+    background-color: var(--main-color-hover);
 }

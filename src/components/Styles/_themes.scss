@@ -1,0 +1,13 @@
+:root {
+    --gradient-color: #6e34af;
+    --gradient-color-2: #49108B;
+    --main-color: #FF0080;
+    --main-color-hover: #c00060;
+}
+
+[data-theme='dark'] {
+    --gradient-color: #373A40;
+    --gradient-color-2: #252629;
+    --main-color: #686D76;
+    --main-color-hover: #5e636b;
+}
