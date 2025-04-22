@@ -55,6 +55,8 @@
 
         .hover__title {
             font-size: 32px;
+            text-decoration: underline;
+            text-decoration-color: #FF0080;
         }
 
         ul {
@@ -62,6 +64,12 @@
             display: none;
             color: white;
             list-style: none;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
         }
 
         a {
@@ -72,11 +80,11 @@
             text-decoration: none;
             transition: .2s;
         }
-
+    
         a:hover {
             background-color: #c00060;
         }
-
+    
         span {
             color: white;
             display: none;
@@ -130,11 +138,7 @@
                 list-style: circle;
             }
 
-            a {
-                display: block;                
-            }
-
-            span{
+            a, span {
                 display: block;
             }
         }

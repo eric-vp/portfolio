@@ -1,4 +1,3 @@
-import Button from '../Button/Button';
 import './_repositories.scss';
 
 export default function Repositories() {
@@ -12,9 +11,14 @@ export default function Repositories() {
                         <li>LocalStorage</li>
                         <li>Responsivo</li>
                     </ul>
-                    <a href="https://favorite-movies-ten.vercel.app/" target="_blank">
-                        <span>LINK</span>
-                    </a>
+                    <div className="links">
+                        <a href="https://favorite-movies-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <span>Link do projeto</span>
+                        </a>
+                        <a href="https://github.com/eric-vp/favorite-movies" target="_blank" rel="noopener noreferrer">
+                            <span>Link do repositório</span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="second">
@@ -25,9 +29,14 @@ export default function Repositories() {
                         <li>Styled Components</li>
                         <li>Responsivo</li>
                     </ul>
-                    <a href="https://optimus-tech-eric-vp.vercel.app/" target="_blank">
-                        <span>LINK</span>
-                    </a>
+                    <div className="links">
+                        <a href="https://optimus-tech-eric-vp.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <span>Link do projeto</span>
+                        </a>
+                        <a href="https://github.com/eric-vp/optimus-tech" target="_blank" rel="noopener noreferrer">
+                            <span>Link do repositório</span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="third">
@@ -38,9 +47,14 @@ export default function Repositories() {
                         <li>Styled Components</li>
                         <li>LocalStorage</li>
                     </ul>
-                    <a href="https://to-do-list-snowy-theta.vercel.app/" target="_blank">
-                        <span>LINK</span>
-                    </a>
+                    <div className="links">
+                        <a href="https://to-do-list-snowy-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <span>Link do projeto</span>
+                        </a>
+                        <a href="https://github.com/eric-vp/to-do-list" target="_blank" rel="noopener noreferrer">
+                            <span>Link do repositório</span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="fourth">
@@ -51,9 +65,14 @@ export default function Repositories() {
                         <li>React Router</li>
                         <li>CSS Modules</li>
                     </ul>
-                    <a href="https://cinetag-lac.vercel.app/" target="_blank">
-                        <span>LINK</span>
-                    </a>
+                    <div className="links">
+                        <a href="https://cinetag-lac.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <span>Link do projeto</span>
+                        </a>
+                        <a href="https://github.com/eric-vp/cinetag" target="_blank" rel="noopener noreferrer">
+                            <span>Link do repositório</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
