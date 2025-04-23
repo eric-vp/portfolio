@@ -1,12 +1,11 @@
+@use "../Styles/themes";
+
 .title {
-    // padding-top: 200px;
     font-size: 100px;
-    // text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-style: italic;
-    // text-transform: uppercase;
 
     .title-first {
         text-transform: uppercase;
@@ -16,7 +15,7 @@
 
     .title-second {
         margin-top: -117px;
-        color: #FF0080;
+        color: var(--main-color);
         font-weight: bold;
         font-family: "Verdana", sans-serif;
     }

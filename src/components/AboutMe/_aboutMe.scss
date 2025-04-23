@@ -1,9 +1,11 @@
 @use "../Styles/mixins";
+@use "../Styles/themes";
 
 .aboutMe {
     @include mixins.section;
     padding: 0 5rem;
 
+    background-color: var(--bg-light);
     display: flex;
     flex-direction: column;
     align-items: start;
