@@ -5,17 +5,20 @@
     @include mixins.section;
     padding: 0 5rem;
 
-    background-color: var(--bg-light);
+    // background-color: var(--bg-aboutMe);
+    background: linear-gradient(45deg, var(--gradient-aboutMe), var(--gradient-aboutMe-2));
     display: flex;
     flex-direction: column;
     align-items: start;
+
+    color: var(--text-color);
     
     .title {
         font-size: 90px;
         padding-top: 100px;
         .title-first {
                 text-transform: uppercase;
-                color: black;
+                color: var(--text-color);
                 font-family: sans-serif;
         }
         .title-second {
